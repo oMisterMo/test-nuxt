@@ -1,10 +1,27 @@
 <template>
     <div>
-        <!-- <NuxtWelcome /> -->
-        <h1>Welcome</h1>
+        <NuxtLayout>
+            <header>
+                <ul>
+                    <li>
+                        <NuxtLink to="/">Home</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/auth">Auth</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/search">Search</NuxtLink>
+                    </li>
+                    <li>
+                        <NuxtLink to="/profile">Profile</NuxtLink>
+                    </li>
+                </ul>
+            </header>
+            <NuxtPage></NuxtPage>
+        </NuxtLayout>
     </div>
 </template>
 
-<script>
-console.log("Welcome scripts...");
+<script setup>
+console.log("Mo Nuxt...");
 </script>
