@@ -1,9 +1,10 @@
 <template>
     <div>
-        <NuxtWelcome />
+        <!-- <NuxtWelcome /> -->
+        <h1>Welcome</h1>
     </div>
 </template>
 
 <script>
-console.log("byee");
+console.log("Welcome scripts...");
 </script>
