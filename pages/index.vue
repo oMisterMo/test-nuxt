@@ -1,5 +1,5 @@
 <template>
-    <!-- <div>index page</div> -->
+    <div>index page</div>
     <!-- <Mo /> -->
-    <Login />
+    <!-- <Login /> -->
 </template>
