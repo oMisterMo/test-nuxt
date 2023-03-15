@@ -1,6 +1,7 @@
 <template>
     <div>
         <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <!-- Firstname -->
             <div class="md:flex md:items-center mb-6">
                 <div class="md:w-1/3">
                     <label
@@ -19,6 +20,7 @@
                     />
                 </div>
             </div>
+            <!-- Surname -->
             <div class="md:flex md:items-center mb-6">
                 <div class="md:w-1/3">
                     <label
@@ -37,6 +39,25 @@
                     />
                 </div>
             </div>
+            <!-- Email -->
+            <div class="md:flex md:items-center mb-6">
+                <div class="md:w-1/3">
+                    <label
+                        class="block text-gray-500 font-bold md:text-right mb-1 md:mb-0 pr-4"
+                        for="inline-email"
+                    >
+                        Email
+                    </label>
+                </div>
+                <div class="md:w-2/3">
+                    <input
+                        class="shadow appearance-none border rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-purple-500"
+                        id="inline-email"
+                        type="text"
+                        placeholder="Email"
+                    />
+                </div>
+            </div>
             <div class="md:flex md:items-center mb-6">
                 <div class="md:w-1/3"></div>
                 <label class="md:w-2/3 block text-gray-500 font-bold">
@@ -48,7 +69,7 @@
                 <div class="md:w-1/3"></div>
                 <div class="md:w-2/3">
                     <button
-                        class="shadow bg-blue-500 hover:bg-blue-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
+                        class="shadow bg-green-950 hover:bg-green-400 focus:shadow-outline focus:outline-none text-white font-bold py-2 px-4 rounded"
                         type="button"
                     >
                         Sign Up

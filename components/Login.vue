@@ -19,13 +19,13 @@
             </div>
             <div class="flex items-center justify-between">
                 <button
-                    class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                    class="bg-green-950 hover:bg-green-400 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
                     type="button"
                 >
                     Sign In
                 </button>
                 <a
-                    class="inline-block align-baseline font-bold text-sm text-blue-500 hover:text-blue-800"
+                    class="inline-block align-baseline font-bold text-sm text-green-950 hover:text-green-800"
                     href="#"
                 >
                     Forgot Password?
