@@ -56,5 +56,6 @@
                 </div>
             </div>
         </form>
+        <CopyrightNotice />
     </div>
 </template>
