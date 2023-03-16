@@ -3,6 +3,24 @@ import { resolve } from "path";
 console.log("dirname: ", __dirname);
 
 export default defineNuxtConfig({
+    app: {
+        head: {
+            title: "Mo",
+            meta: [
+                {
+                    name: "description",
+                    content: "Some description about this application",
+                },
+            ],
+            link: [
+                // { rel: "stylesheet", href: "" },
+                {
+                    rel: "stylesheet",
+                    href: "https://fonts.googleapis.com/icon?family=Material+Icons",
+                },
+            ],
+        },
+    },
     alias: {
         "@": resolve(__dirname),
     },

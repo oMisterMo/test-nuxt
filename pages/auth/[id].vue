@@ -1,6 +1,11 @@
 <template>
     <div>
         <p>params: {{ $route.params.id }}</p>
+        <div class="flex gap-5 p-5">
+            <i class="material-icons mr-2">home</i>
+            <i class="material-icons mr-2">key</i>
+            <i class="material-icons mr-2">search</i>
+        </div>
         <p>item: {{ data.title }}</p>
     </div>
 </template>
