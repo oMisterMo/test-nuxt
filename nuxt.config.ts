@@ -19,7 +19,7 @@ export default defineNuxtConfig({
         // Keys within public, will be also exposed to the client-side
         public: {
             baseUrl: process.env.API_BASE_URL || "default_0",
-            other: process.env.BASE_URL || "default_1",
+            other: process.env.DOESNT_EXIST || "default_1",
             mo: process.env.MO || "default_2",
         },
     },
