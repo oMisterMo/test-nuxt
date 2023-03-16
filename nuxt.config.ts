@@ -13,4 +13,14 @@ export default defineNuxtConfig({
             autoprefixer: {},
         },
     },
+    runtimeConfig: {
+        // The private keys which are only available within server-side
+        secret: process.env.SECRET,
+        // Keys within public, will be also exposed to the client-side
+        public: {
+            baseUrl: process.env.API_BASE_URL || "default_0",
+            other: process.env.BASE_URL || "default_1",
+            mo: process.env.MO || "default_2",
+        },
+    },
 });
